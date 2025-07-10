@@ -165,6 +165,24 @@
     line-height: 0;
  }
 
+ /*Sign up page*/
+ #signup {
+    background-size: cover;
+    background-image: url(../images/signup-image.webp);
+    background-position: 75%;
+    flex-grow: 1;
+ }
+h2 {
+    color: #fafafa;
+}
+
+#signup-form {
+    color:#ffffff;
+    background-color: rgba(60, 60 60, 0.6);
+    padding: 30px;
+}
+
+
 
  /* Footer */
  #social-networks {
