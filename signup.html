@@ -36,29 +36,32 @@
 	</header>
 
 	<!-- Main content-->
-	<main >
+	<main>
 		<section id="signup">
 			<form id="signup-form" action="https://formdump.codeinstitute.net" method="post">
 				<h2><i class="fa-solid fa-heart-pulse"></i>LET'S GET YOU SIGNED UP!</h2>
 				<label for="first-name">First Name</label>
-				<input id="first-name" type="text" class="text-input" value="first-name" required>
+				<input type="text" id="first-name"  class="text-input" name="first-name" required>
 				<br>
 				<label for="last-name">Last Name</label>
-				<input id="last-name" type="text" class="text-input" value="last-name" required>
+				<input type="text" id="last-name"  class="text-input" name="last-name" required>
 				<br>
 				<label for="email-address">Email Address</label>
-				<input id="email-address" type="email" class="text-input" value="email-address" required>
+				<input id="email-address" type="email" class="text-input" name="email-address" required>
 				<br>
-				<label for="road">Road</label>
-				<input type="radio" id="road" value="road" name="running_preference" required>
+				<div class="radio-buttons">
+					<label for="road">Road</label>
+					<input type="radio" id="road" value="road" name="running_preference" required>
+					<br>
+					<label for="trail">Trail</label>
+					<input type="radio" id="trail" value="trail" name="running_preference" required>
+					<br>
+					<label for="both">Both</label>
+					<input type="radio" id="both" value="both" name="running_preference" required>
+				</div>
 				<br>
-				<label for="trail">Trail</label>
-				<input type="radio" id="trail" value="trail" name="running_preference" required>
-				<br>
-				<label for="both">Both</label>
-				<input type="radio" id="both" value="both" name="running_preference" required>
-				<br>
-				<button type="submit">Let's Run</button>
+				<button type="submit" class="join-button">Let's Run</button>
+
 
 			</form>
 		</section>
